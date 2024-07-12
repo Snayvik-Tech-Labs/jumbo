@@ -1,0 +1,601 @@
+:root {
+    --primary-color: #febe11;
+    --secondary-color: #000000;
+    --text-white-color: white;
+}
+
+/* font family  */
+
+@font-face {
+    font-family: "Jumbo-TheSans-Bold";
+    src: url("../fonts/Jumbo-TheSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Jumbo-TheSans-Regular";
+    src: url("../fonts/Jumbo-TheSans-Regular.ttf");
+}
+
+.f-family-bold-jumboTheSans {
+    font-family: "Jumbo-TheSans-Bold";
+}
+
+.f-famalu-regular-jumboTheSans {
+    font-family: "Jumbo-TheSans-Regular";
+}
+
+@font-face {
+    font-family: "JumboIntroHead-Bold";
+    src: url("../fonts/Jumbo-TheSans-Black.ttf");
+}
+
+@font-face {
+    font-family: "JumboIntroHead-Heavy";
+    src: url("../fonts/JumboIntroHead-Heavy.otf");
+}
+
+@font-face {
+    font-family: "JumboIntroHead-Regular";
+    src: url("../fonts/JumboIntroHead-Regular.otf");
+}
+
+.f-familyJumboIntroHead-Bold {
+    font-family: "JumboIntroHead-Bold";
+}
+
+.f-family-JumboIntroHead-Heavy {
+    font-family: "JumboIntroHead-Heavy";
+}
+
+.f-famalu-JumboIntroHead-Regular {
+    font-family: "JumboIntroHead-Regular";
+}
+
+@font-face {
+    font-family: "JumboIntroScript-Bold";
+    src: url("../fonts/JumboIntroScript-Bold.otf");
+}
+
+@font-face {
+    font-family: "JumboIntroScript-Light";
+    src: url("../fonts/JumboIntroScript-Light.otf");
+}
+
+@font-face {
+    font-family: "JumboIntroScript-Regular";
+    src: url("../fonts/JumboIntroScript-Regular.otf");
+}
+
+.f-family-JumboIntroScript-Bold {
+    font-family: "JumboIntroScript-Bold";
+}
+
+.f-family-JumboIntroScript-Light {
+    font-family: "JumboIntroScript-Light";
+}
+
+.f-famalu-JumboIntroScript-Regular {
+    font-family: "JumboIntroScript-Regular";
+}
+
+@font-face {
+    font-family: "JumboMindset-Slim";
+    src: url("../fonts/JumboMindset-Slim.otf");
+}
+
+@font-face {
+    font-family: "JumboOmeHenkPrice";
+    src: url("../fonts/JumboOmeHenkPrice.otf");
+}
+
+.f-family-JumboMindset-Slim {
+    font-family: "JumboMindset-Slim";
+}
+
+.f-famalu-JumboOmeHenkPrice {
+    font-family: "JumboOmeHenkPrice";
+}
+
+/* -- page layout -- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* --text formting -- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.text-white {
+    color: var(--text-white-color);
+}
+
+.txt-black {
+    color: var(--secondary-color);
+}
+
+.txt-primary {
+    color: var(--primary-color);
+}
+
+.home-page-section {
+    height: 100%;
+    background-image: url("../img/bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* padding: 10px 0; */
+}
+
+.heading {
+    font-size: 16vw;
+    font-family: Cerebri-Sans-Bold;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 3px 3px black;
+    line-height: 1;
+}
+
+.food-txt {
+    color: white;
+    background: var(--secondary-color);
+    border-radius: 10px 0 0 0;
+    padding: 4px;
+    font-size: 30px;
+    line-height: 0.9;
+    width: 80px;
+    font-weight: 800;
+    word-break: break-word;
+}
+
+.food-txt span {
+    font-size: 25px;
+}
+
+.head-div {
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.inner-section {
+    padding: 10px;
+    overflow: auto;
+    height: 100vh;
+}
+
+.title {
+    font-size: 9.5vw;
+    font-weight: 700;
+    font-family: 'Cerebri-Sans-Bold';
+    margin-top: 4px;
+}
+
+.video-tag {
+    height: 277px;
+}
+
+.jumbo-btn {
+    background: black;
+    padding: 3px 10px;
+    border-radius: 8px;
+    color: #e7b528;
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+.btn-txt {
+    font-size: 4.3vw;
+    font-weight: 800;
+    line-height: 1.2;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.btn-section {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* .bottom-map-div {
+    position: fixed;
+    bottom: 5px;
+} */
+
+.bottom-map-div::before {
+    content: " ";
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    left: 0px;
+    bottom: 5px;
+}
+
+.txt-botm {
+    font-size: 4.4vw;
+    font-weight: 800;
+}
+
+.comment-txt {
+    position: absolute;
+    background: white;
+    padding: 0px 8px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 8px;
+    right: 30px;
+    transform: rotate(-8deg);
+    top: 48px;
+}
+
+.email-title {
+    color: white;
+    font-size: 7vw;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-family: JumboMindset-Slim;
+    letter-spacing: 2px;
+}
+
+.email-section {
+    padding: 8em 15px;
+    width: 75%;
+    margin: auto;
+}
+
+.comment-txt.eml-txt {
+    top: -70px;
+    transform: rotate(-4deg);
+}
+
+.input-field {
+    border-radius: 10px;
+    border: none;
+    padding: 8px 8px;
+    width: 85%;
+}
+
+.cl-lb {
+    font-size: 22px;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-family: Jumbo-TheSans-Bold;
+}
+
+.start-btn {
+    background: var(--primary-color);
+    padding: 5px 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: var(--text-white-color);
+    font-weight: 800;
+    font-family: JumboMindset-Slim;
+    letter-spacing: 2px;
+}
+
+.email-div {
+    margin-bottom: 5em;
+}
+
+.check-txt {
+    font-size: 15px;
+}
+
+.check-width {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.bottom-text-sec {
+    position: absolute;
+    bottom: 25px;
+    left: 7%;
+    right: 7%;
+}
+
+.heading.head-size {
+    font-size: 12vw;
+}
+
+.txt-size {
+    font-size: 22px;
+    width: 60px;
+}
+
+.txt-size span {
+    font-size: 17px;
+}
+
+.spin-win {
+    font-size: 10vw;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'JumboMindset-Slim';
+    letter-spacing: 4px;
+    color: black;
+}
+
+.win {
+    color: white;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.wel-head {
+    font-size: 7vw;
+    font-family: JumboMindset-Slim;
+    letter-spacing: 2px;
+}
+
+.text-size {
+    font-size: 43px;
+    font-weight: 800;
+    font-family: JumboMindset-Slim;
+    letter-spacing: 3px;
+}
+
+.middle-btn-sec {
+    display: grid;
+    gap: 5vh;
+    margin-top: 6vh;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* .bottom-map-div {
+    height: 140px;
+    background: url(../img/map-image.png);
+    background-size: 145% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+} */
+
+.head-img {
+    width: 280px;
+}
+
+.home-page-section.bg-change {
+    background-color: var(--secondary-color);
+    background-image: none;
+}
+
+.eml-txt::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/comment.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    top: 40px;
+    height: 30px;
+    right: 20px;
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .inner-section {
+        padding: 10px;
+    }
+
+    .head-div {
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .heading {
+        font-size: 12vw;
+        font-family: Cerebri-Sans-Bold;
+        font-weight: bolder;
+        color: white;
+        text-shadow: 3px 3px black;
+        line-height: 1;
+    }
+
+    .food-txt span {
+        font-size: 40px;
+    }
+
+    .food-txt {
+        color: white;
+        background: var(--secondary-color);
+        border-radius: 10px 0 0 0;
+        padding: 7px;
+        font-size: 55px;
+        line-height: 0.7;
+        width: 135px;
+        font-weight: 800;
+        word-break: break-word;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 6.8vw;
+        font-weight: 800;
+        font-family: 'Cerebri-Sans-Bold';
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .video-tag {
+        height: 500px;
+    }
+
+    .comment-txt {
+        position: absolute;
+        background: white;
+        padding: 3px 8px;
+        font-weight: 800;
+        font-size: 40px;
+        border-radius: 8px;
+        right: 24%;
+        transform: rotate(-8deg);
+        top: 70px;
+        line-height: 1;
+        font-family: JumboMindset-Slim;
+    }
+
+    .jumbo-btn {
+        background: black;
+        padding: 5px 20px;
+        border-radius: 8px;
+        color: #e7b528;
+        font-size: 3.4vw;
+        font-weight: 700;
+    }
+
+    .btn-txt {
+        font-size: 30px;
+        line-height: 1;
+        width: 65%;
+        margin: 10px auto;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .txt-small {
+        font-size: 25px;
+    }
+
+    .head-img {
+        width: 65%;
+        margin: auto;
+    }
+
+    /* .bottom-map-div {
+        height: 280px;
+        background: url("../img/map-image.png");
+        background-size: 150% 110%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    } */
+    .bottom-map-div {
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .bottom-txt-div {
+        padding: 0 20px;
+    }
+
+    .txt-botm {
+        font-size: 40px;
+        font-weight: 800;
+        font-family: 'JumboMindset-Slim';
+        letter-spacing: 2px;
+    }
+
+    .spin-head-section {
+        width: 100%;
+        padding: 7em 0 25px 0;
+    }
+
+    .margin-top {
+        margin-top: 7em;
+    }
+
+    .btn-div {
+        background: url(../img/card-backgound.png);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 310px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sml-size {
+        font-size: 35px;
+        text-align: center;
+        width: 80%;
+        line-height: 1;
+    }
+
+    .welcom-head-sec {
+        padding-top: 4em;
+    }
+
+    .food-mrkt-img {
+        width: 100px;
+        height: auto;
+    }
+
+    .btn-div.active {
+        filter: brightness(0.5);
+    }
+
+    .backg-black {
+        background: url("../img/Rectangle\ 700@2x.png");
+        background-position: center;
+        padding: 0px 15px;
+        border-radius: 15px;
+        transform: rotate(-12deg);
+        margin-top: 3em;
+
+    }
+
+    .sipn-before {
+        position: relative;
+        z-index: 9;
+    }
+
+    .sipn-before::before {
+        content: "";
+        background-image: url(../img/spinner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: 0px;
+        left: 25px;
+        z-index: -1;
+
+    }
+
+    .txt-red {
+        color: #ff1112;
+    }
+
+    .sml-size {
+        font-family: 'JumboMindset-Slim';
+        margin-top: 40px;
+        font-size: 40px;
+        width: 100%;
+    }
+
+}
