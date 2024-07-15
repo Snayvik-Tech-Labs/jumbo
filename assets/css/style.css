@@ -648,8 +648,9 @@ li {
 
     .back-btn {
         width: 115px;
-        margin-top: 3em;
-        margin-left: 2em;
+        position: absolute;
+        left: 20px;
+        top: 35px;
     }
 
     .opne-time-li p {
@@ -706,4 +707,27 @@ li {
         top: 62px;
         left: 25px;
     }
+
+    .padd-top {
+        padding-top: 6em;
+    }
+
+    .top-sec-div {
+        background-color: #ECB719;
+        /* padding: 40px 20px 20px 20px; */
+        height: 10vh;
+        display: flex;
+        align-items: end;
+        padding: 20px;
+    }
+
+    .black-back-img {
+        width: 110px;
+    }
+
+    .inner-img-sec {
+        height: 90vh;
+        overflow: auto;
+    }
+
 }
