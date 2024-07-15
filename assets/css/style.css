@@ -51,32 +51,32 @@
     font-family: "JumboIntroHead-Regular";
 }
 
-@font-face {
+/* @font-face {
     font-family: "JumboIntroScript-Bold";
     src: url("../fonts/JumboIntroScript-Bold.otf");
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: "JumboIntroScript-Light";
     src: url("../fonts/JumboIntroScript-Light.otf");
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: "JumboIntroScript-Regular";
     src: url("../fonts/JumboIntroScript-Regular.otf");
-}
+} */
 
-.f-family-JumboIntroScript-Bold {
+/* .f-family-JumboIntroScript-Bold {
     font-family: "JumboIntroScript-Bold";
-}
+} */
 
-.f-family-JumboIntroScript-Light {
+/* .f-family-JumboIntroScript-Light {
     font-family: "JumboIntroScript-Light";
-}
+} */
 
-.f-famalu-JumboIntroScript-Regular {
+/* .f-famalu-JumboIntroScript-Regular {
     font-family: "JumboIntroScript-Regular";
-}
+} */
 
 @font-face {
     font-family: "JumboMindset-Slim";
@@ -598,4 +598,112 @@ li {
         width: 100%;
     }
 
+    .location-img {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .detl-head {
+        font-size: 50px;
+        font-family: 'JumboMindset-Slim';
+        color: white;
+        text-align: center;
+        margin-bottom: 1em;
+        letter-spacing: 1px;
+    }
+
+    .head2 {
+        font-size: 42px;
+        font-family: JumboIntroHead-Bold;
+        color: var(--primary-color);
+        text-align: center;
+        margin-bottom: 1em;
+
+    }
+
+    .route-nm {
+        font-size: 20px;
+        background-color: var(--primary-color);
+        padding: 3px 15px;
+        border-radius: 5px;
+        font-family: 'JumboIntroHead-Bold';
+    }
+
+    .clock {
+        width: 55px;
+        height: auto;
+    }
+
+    .open-time-title {
+        font-size: 35px;
+        color: white;
+        font-family: 'JumboMindset-Slim';
+        letter-spacing: 1px;
+    }
+
+    .deatil-heading-sec {
+        width: 65%;
+        margin: auto;
+    }
+
+    .back-btn {
+        width: 115px;
+        margin-top: 3em;
+        margin-left: 2em;
+    }
+
+    .opne-time-li p {
+        color: white;
+        font-size: 22px;
+        font-family: Jumbo-TheSans-Regular;
+    }
+
+    .opne-time-li {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .timeing-div {
+        margin-bottom: 4em;
+    }
+
+    .open-date {
+        font-size: 28px;
+        color: white;
+        text-align: center;
+        font-family: 'JumboMindset-Slim';
+        letter-spacing: 1px;
+    }
+
+    .info-btn {
+        font-size: 38px;
+        font-family: 'JumboMindset-Slim';
+        letter-spacing: 1px;
+        transform: rotate(13deg);
+    }
+
+    .info-div {
+        background: url(../img/comment-bg.png);
+        background-position: 44% 100%;
+        background-size: cover;
+        width: 203px;
+        display: flex;
+        flex-direction: column;
+        height: 104px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .info-div::before {
+        content: '';
+        background-image: url(../img/hand.png);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 75px;
+        height: 80px;
+        top: 62px;
+        left: 25px;
+    }
 }
