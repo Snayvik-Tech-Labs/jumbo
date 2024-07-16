@@ -12,6 +12,11 @@
 }
 
 @font-face {
+    font-family: "Jumbo-TheSans-Bold";
+    src: url("../fonts/Jumbo-TheSans-Bold.ttf");
+}
+
+@font-face {
     font-family: "Jumbo-TheSans-Regular";
     src: url("../fonts/Jumbo-TheSans-Regular.ttf");
 }
@@ -84,17 +89,26 @@
 }
 
 @font-face {
+    font-family: "JumboMindset-Regular";
+    src: url("../fonts/JumboMindset-Regular.otf");
+}
+
+/* @font-face {
     font-family: "JumboOmeHenkPrice";
     src: url("../fonts/JumboOmeHenkPrice.otf");
-}
+} */
 
 .f-family-JumboMindset-Slim {
     font-family: "JumboMindset-Slim";
 }
 
-.f-famalu-JumboOmeHenkPrice {
-    font-family: "JumboOmeHenkPrice";
+.f-famalu-JumboMindset-Regular {
+    font-family: "JumboMindset-Regular";
 }
+
+/* .f-famalu-JumboOmeHenkPrice {
+    font-family: "JumboOmeHenkPrice";
+} */
 
 /* -- page layout -- */
 * {
@@ -648,8 +662,9 @@ li {
 
     .back-btn {
         width: 115px;
-        margin-top: 3em;
-        margin-left: 2em;
+        position: absolute;
+        left: 20px;
+        top: 35px;
     }
 
     .opne-time-li p {
@@ -706,4 +721,70 @@ li {
         top: 62px;
         left: 25px;
     }
+
+    .padd-top {
+        padding-top: 6em;
+    }
+
+    .top-sec-div {
+        background-color: #ECB719;
+        /* padding: 40px 20px 20px 20px; */
+        height: 10vh;
+        display: flex;
+        align-items: end;
+        padding: 20px;
+    }
+
+    .black-back-img {
+        width: 110px;
+    }
+
+    .inner-img-sec {
+        height: 90vh;
+        overflow: auto;
+    }
+
+    .title-div {
+        width: 50%;
+        margin: auto;
+    }
+
+    .title-zotte {
+        width: 270px;
+        height: auto;
+    }
+
+    .bg-none {
+        background-color: unset;
+    }
+
+    .in-height {
+        height: 90vh;
+        padding: 51px 30px 15px 30px;
+    }
+
+    .product-img-grid-sec {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .pro-img.img-fluid {
+        background: white;
+        height: 365px;
+        width: 365px;
+        margin: auto;
+        border-radius: 25px;
+    }
+
+    .qr-title {
+        font-size: 60px;
+        font-family: JumboMindset-Regular;
+    }
+
+    .qr-sc-tile {
+        font-size: 45px;
+        font-family: JumboMindset-Regular;
+    }
+
 }
