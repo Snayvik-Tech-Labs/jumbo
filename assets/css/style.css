@@ -7,8 +7,8 @@
 /* font family  */
 
 @font-face {
-    font-family: "Jumbo-TheSans-Bold";
-    src: url("../fonts/Jumbo-TheSans-Bold.ttf");
+    font-family: "Jumbo-TheSans-Black";
+    src: url("../fonts/Jumbo-TheSans-Black.ttf");
 }
 
 @font-face {
@@ -19,6 +19,10 @@
 @font-face {
     font-family: "Jumbo-TheSans-Regular";
     src: url("../fonts/Jumbo-TheSans-Regular.ttf");
+}
+
+.f-family-Jumbo-TheSans-Black {
+    font-family: "Jumbo-TheSans-Black";
 }
 
 .f-family-bold-jumboTheSans {
@@ -121,6 +125,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: JumboMindset-Regular;
+
 }
 
 /* --text formting -- */
@@ -230,13 +236,23 @@ li {
 
 .btn-section {
     margin-top: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -35px;
 }
 
 /* .bottom-map-div {
     position: fixed;
     bottom: 5px;
 } */
+.bottom-map-div.main-bg::before {
+    background: url(../img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 10px;
+}
 
 .bottom-map-div::before {
     content: " ";
@@ -250,6 +266,8 @@ li {
     left: 0px;
     bottom: 5px;
 }
+
+
 
 .txt-botm {
     font-size: 4.4vw;
@@ -280,7 +298,7 @@ li {
 
 .email-section {
     padding: 8em 15px;
-    width: 75%;
+    width: 65%;
     margin: auto;
 }
 
@@ -305,8 +323,8 @@ li {
 
 .start-btn {
     background: var(--primary-color);
-    padding: 5px 30px;
-    font-size: 30px;
+    padding: 8px 40px;
+    font-size: 32px;
     border-radius: 10px;
     color: var(--text-white-color);
     font-weight: 800;
@@ -320,6 +338,7 @@ li {
 
 .check-txt {
     font-size: 15px;
+    font-family: 'Jumbo-TheSans-Bold';
 }
 
 .check-width {
@@ -478,17 +497,21 @@ li {
 
     .jumbo-btn {
         background: black;
-        padding: 5px 20px;
         border-radius: 8px;
         color: #e7b528;
-        font-size: 3.4vw;
+        font-size: 34px;
         font-weight: 700;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
     }
 
     .btn-txt {
-        font-size: 30px;
+        font-size: 33px;
         line-height: 1;
-        width: 65%;
+        width: 50%;
         margin: 10px auto;
         font-weight: 700;
         text-align: center;
@@ -511,15 +534,18 @@ li {
         background-position: center center;
         background-repeat: no-repeat;
     } */
-    .bottom-map-div {
+
+    /* .bottom-map-div {
         position: absolute;
         bottom: 10px;
         left: 0px;
         width: 100%;
-    }
+    } */
 
     .bottom-txt-div {
         padding: 0 20px;
+        position: absolute;
+        bottom: 30px;
     }
 
     .txt-botm {
@@ -784,7 +810,109 @@ li {
 
     .qr-sc-tile {
         font-size: 45px;
-        font-family: JumboMindset-Regular;
+        font-family: Jumbo-TheSans-Black;
     }
 
+    .qr-img {
+        width: 350px;
+        height: auto;
+    }
+
+    .li-fd-mr {
+        font-size: 30px;
+        font-family: 'Jumbo-TheSans-Black';
+    }
+
+    .verder-btn {
+        font-size: 35px;
+        background: black;
+        color: white;
+        border-radius: 10px;
+        width: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 53px;
+    }
+
+    .inner-width {
+        width: 65%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .qr-download-div {
+        height: 38px;
+        background: url(../img/download-img.png);
+        background-position: center;
+        background-size: cover;
+        width: 210px;
+        margin: auto;
+        margin-top: -15px;
+        position: relative;
+    }
+
+    .verder-btn-div {
+        margin-top: 6em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .deal-card-img {
+        width: 500px;
+        height: 500px;
+        background: url("../img/card-bg.png");
+        background-size: cover;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lock-img {
+        width: 400px;
+        height: auto;
+    }
+
+    .unlock-section {
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .deal-itme-sec {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        border-radius: 50px;
+        margin: auto;
+        margin-top: -20px;
+    }
+
+    .inner-section-deal {
+        margin-top: -35px;
+    }
+
+    .back-sec {
+        display: inline-block;
+        margin-top: 22px;
+    }
+
+    .deal-qr-dwn {
+        width: 70%;
+        height: auto;
+    }
+
+    .deal-qr-dwn {
+        width: 70%;
+        height: auto;
+    }
+
+    .bottom-map-div.email-end-sec {
+        height: 297px;
+        display: flex;
+        align-items: end;
+    }
 }
