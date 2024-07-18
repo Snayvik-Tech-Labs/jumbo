@@ -267,3 +267,28 @@ body {
     font-size: 14px;
     font-weight: 600;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .wheel__inner {
+        width: 320px;
+        height: 320px;
+    }
+
+    .wheel {
+        width: 335px;
+        height: 335px;
+    }
+
+    .wheel__sec {
+        position: absolute;
+        top: -30px;
+        left: 70px;
+
+    }
+
+    .spin-head-section {
+        width: 100%;
+        padding: 3em 0 0px 0;
+    }
+}

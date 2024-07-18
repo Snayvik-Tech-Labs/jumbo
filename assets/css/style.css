@@ -213,10 +213,6 @@ li {
     margin-top: 4px;
 }
 
-.video-tag {
-    height: 277px;
-}
-
 .jumbo-btn {
     background: black;
     padding: 3px 10px;
@@ -288,12 +284,12 @@ li {
 
 .email-title {
     color: white;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 1.5em;
-    font-family: JumboMindset-Slim;
+    font-family: 'JumboMindset-Regular';
     letter-spacing: 2px;
+    margin-bottom: 3rem;
 }
 
 .email-section {
@@ -303,7 +299,7 @@ li {
 }
 
 .comment-txt.eml-txt {
-    top: -70px;
+    top: -60px;
     transform: rotate(-4deg);
 }
 
@@ -338,7 +334,7 @@ li {
 
 .check-txt {
     font-size: 15px;
-    font-family: 'Jumbo-TheSans-Bold';
+    font-family: 'Jumbo-TheSans-Regular';
 }
 
 .check-width {
@@ -374,17 +370,18 @@ li {
     font-family: 'JumboMindset-Slim';
     letter-spacing: 4px;
     color: black;
+    position: relative;
 }
 
 .win {
     color: white;
-    padding: 0 10px;
+    padding: 6px 10px;
     border-radius: 10px;
 }
 
 .wel-head {
     font-size: 7vw;
-    font-family: JumboMindset-Slim;
+    font-family: 'JumboMindset-Regular';
     letter-spacing: 2px;
 }
 
@@ -433,101 +430,101 @@ li {
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .inner-section {
-        padding: 10px;
-    }
+/* @media only screen and (min-width: 769px) and (max-width: 1024px) { */
+.inner-section {
+    padding: 10px;
+}
 
-    .head-div {
-        gap: 25px;
-        justify-content: center;
-    }
+.head-div {
+    gap: 25px;
+    justify-content: center;
+}
 
-    .heading {
-        font-size: 12vw;
-        font-family: Cerebri-Sans-Bold;
-        font-weight: bolder;
-        color: white;
-        text-shadow: 3px 3px black;
-        line-height: 1;
-    }
+.heading {
+    font-size: 12vw;
+    font-family: Cerebri-Sans-Bold;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 3px 3px black;
+    line-height: 1;
+}
 
-    .food-txt span {
-        font-size: 40px;
-    }
+.food-txt span {
+    font-size: 40px;
+}
 
-    .food-txt {
-        color: white;
-        background: var(--secondary-color);
-        border-radius: 10px 0 0 0;
-        padding: 7px;
-        font-size: 55px;
-        line-height: 0.7;
-        width: 135px;
-        font-weight: 800;
-        word-break: break-word;
-        text-align: center;
-    }
+.food-txt {
+    color: white;
+    background: var(--secondary-color);
+    border-radius: 10px 0 0 0;
+    padding: 7px;
+    font-size: 55px;
+    line-height: 0.7;
+    width: 135px;
+    font-weight: 800;
+    word-break: break-word;
+    text-align: center;
+}
 
-    .title {
-        font-size: 6.8vw;
-        font-weight: 800;
-        font-family: 'Cerebri-Sans-Bold';
-        margin-top: 10px;
-        text-align: center;
-    }
+.title {
+    font-size: 6.8vw;
+    font-weight: 800;
+    font-family: 'Cerebri-Sans-Bold';
+    margin-top: 10px;
+    text-align: center;
+}
 
-    .video-tag {
-        height: 500px;
-    }
+.video-tag {
+    height: 500px;
+}
 
-    .comment-txt {
-        position: absolute;
-        background: white;
-        padding: 3px 8px;
-        font-weight: 800;
-        font-size: 40px;
-        border-radius: 8px;
-        right: 24%;
-        transform: rotate(-8deg);
-        top: 70px;
-        line-height: 1;
-        font-family: JumboMindset-Slim;
-    }
+.comment-txt {
+    position: absolute;
+    background: white;
+    padding: 3px 8px;
+    font-weight: 800;
+    font-size: 40px;
+    border-radius: 8px;
+    right: 15%;
+    transform: rotate(-8deg);
+    top: 70px;
+    line-height: 1;
+    font-family: JumboMindset-Slim;
+}
 
-    .jumbo-btn {
-        background: black;
-        border-radius: 8px;
-        color: #e7b528;
-        font-size: 34px;
-        font-weight: 700;
-        width: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px;
-    }
+.jumbo-btn {
+    background: black;
+    border-radius: 8px;
+    color: #e7b528;
+    font-size: 34px;
+    font-weight: 700;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
 
-    .btn-txt {
-        font-size: 33px;
-        line-height: 1;
-        width: 50%;
-        margin: 10px auto;
-        font-weight: 700;
-        text-align: center;
-        margin-top: 15px;
-    }
+.btn-txt {
+    font-size: 33px;
+    line-height: 1;
+    width: 50%;
+    margin: 10px auto;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
 
-    .txt-small {
-        font-size: 25px;
-    }
+.txt-small {
+    font-size: 25px;
+}
 
-    .head-img {
-        width: 65%;
-        margin: auto;
-    }
+.head-img {
+    width: 65%;
+    margin: auto;
+}
 
-    /* .bottom-map-div {
+/* .bottom-map-div {
         height: 280px;
         background: url("../img/map-image.png");
         background-size: 150% 110%;
@@ -535,384 +532,438 @@ li {
         background-repeat: no-repeat;
     } */
 
-    /* .bottom-map-div {
+/* .bottom-map-div {
         position: absolute;
         bottom: 10px;
         left: 0px;
         width: 100%;
     } */
 
-    .bottom-txt-div {
-        padding: 0 20px;
-        position: absolute;
-        bottom: 30px;
-    }
-
-    .txt-botm {
-        font-size: 40px;
-        font-weight: 800;
-        font-family: 'JumboMindset-Slim';
-        letter-spacing: 2px;
-    }
-
-    .spin-head-section {
-        width: 100%;
-        padding: 7em 0 25px 0;
-    }
-
-    .margin-top {
-        margin-top: 7em;
-    }
-
-    .btn-div {
-        background: url(../img/card-backgound.png);
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height: 310px;
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .sml-size {
-        font-size: 35px;
-        text-align: center;
-        width: 80%;
-        line-height: 1;
-    }
-
-    .welcom-head-sec {
-        padding-top: 4em;
-    }
-
-    .food-mrkt-img {
-        width: 100px;
-        height: auto;
-    }
-
-    .btn-div.active {
-        filter: brightness(0.5);
-    }
-
-    .backg-black {
-        background: url("../img/Rectangle\ 700@2x.png");
-        background-position: center;
-        padding: 0px 15px;
-        border-radius: 15px;
-        transform: rotate(-12deg);
-        margin-top: 3em;
-
-    }
-
-    .sipn-before {
-        position: relative;
-        z-index: 9;
-    }
-
-    .sipn-before::before {
-        content: "";
-        background-image: url(../img/spinner.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 170px;
-        height: 170px;
-        position: absolute;
-        top: 0px;
-        left: 25px;
-        z-index: -1;
-
-    }
-
-    .txt-red {
-        color: #ff1112;
-    }
-
-    .sml-size {
-        font-family: 'JumboMindset-Slim';
-        margin-top: 40px;
-        font-size: 40px;
-        width: 100%;
-    }
-
-    .location-img {
-        width: 80%;
-        margin-bottom: 2em;
-    }
-
-    .detl-head {
-        font-size: 50px;
-        font-family: 'JumboMindset-Slim';
-        color: white;
-        text-align: center;
-        margin-bottom: 1em;
-        letter-spacing: 1px;
-    }
-
-    .head2 {
-        font-size: 42px;
-        font-family: JumboIntroHead-Bold;
-        color: var(--primary-color);
-        text-align: center;
-        margin-bottom: 1em;
-
-    }
-
-    .route-nm {
-        font-size: 20px;
-        background-color: var(--primary-color);
-        padding: 3px 15px;
-        border-radius: 5px;
-        font-family: 'JumboIntroHead-Bold';
-    }
-
-    .clock {
-        width: 55px;
-        height: auto;
-    }
-
-    .open-time-title {
-        font-size: 35px;
-        color: white;
-        font-family: 'JumboMindset-Slim';
-        letter-spacing: 1px;
-    }
-
-    .deatil-heading-sec {
-        width: 65%;
-        margin: auto;
-    }
-
-    .back-btn {
-        width: 115px;
-        position: absolute;
-        left: 20px;
-        top: 35px;
-    }
-
-    .opne-time-li p {
-        color: white;
-        font-size: 22px;
-        font-family: Jumbo-TheSans-Regular;
-    }
-
-    .opne-time-li {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .timeing-div {
-        margin-bottom: 4em;
-    }
-
-    .open-date {
-        font-size: 28px;
-        color: white;
-        text-align: center;
-        font-family: 'JumboMindset-Slim';
-        letter-spacing: 1px;
-    }
-
-    .info-btn {
-        font-size: 38px;
-        font-family: 'JumboMindset-Slim';
-        letter-spacing: 1px;
-        transform: rotate(13deg);
-    }
-
-    .info-div {
-        background: url(../img/comment-bg.png);
-        background-position: 44% 100%;
-        background-size: cover;
-        width: 203px;
-        display: flex;
-        flex-direction: column;
-        height: 104px;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-
-    .info-div::before {
-        content: '';
-        background-image: url(../img/hand.png);
-        background-position: center;
-        background-size: cover;
-        position: absolute;
-        width: 75px;
-        height: 80px;
-        top: 62px;
-        left: 25px;
-    }
-
-    .padd-top {
-        padding-top: 6em;
-    }
-
-    .top-sec-div {
-        background-color: #ECB719;
-        /* padding: 40px 20px 20px 20px; */
-        height: 10vh;
-        display: flex;
-        align-items: end;
-        padding: 20px;
-    }
-
-    .black-back-img {
-        width: 110px;
-    }
-
-    .inner-img-sec {
-        height: 90vh;
-        overflow: auto;
-    }
-
-    .title-div {
-        width: 50%;
-        margin: auto;
-    }
-
-    .title-zotte {
-        width: 270px;
-        height: auto;
-    }
-
-    .bg-none {
-        background-color: unset;
-    }
-
-    .in-height {
-        height: 90vh;
-        padding: 51px 30px 15px 30px;
-    }
-
-    .product-img-grid-sec {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 50px;
-    }
-
-    .pro-img.img-fluid {
-        background: white;
-        height: 365px;
-        width: 365px;
-        margin: auto;
-        border-radius: 25px;
-    }
-
-    .qr-title {
-        font-size: 60px;
-        font-family: JumboMindset-Regular;
-    }
-
-    .qr-sc-tile {
-        font-size: 45px;
-        font-family: Jumbo-TheSans-Black;
-    }
-
-    .qr-img {
-        width: 350px;
-        height: auto;
-    }
-
-    .li-fd-mr {
-        font-size: 30px;
-        font-family: 'Jumbo-TheSans-Black';
-    }
-
-    .verder-btn {
-        font-size: 35px;
-        background: black;
-        color: white;
-        border-radius: 10px;
-        width: 270px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 53px;
-    }
-
-    .inner-width {
-        width: 65%;
-        margin: auto;
-        text-align: center;
-    }
-
-    .qr-download-div {
-        height: 38px;
-        background: url(../img/download-img.png);
-        background-position: center;
-        background-size: cover;
-        width: 210px;
-        margin: auto;
-        margin-top: -15px;
-        position: relative;
-    }
-
-    .verder-btn-div {
-        margin-top: 6em;
-        display: flex;
-        justify-content: center;
-    }
-
-    .deal-card-img {
-        width: 500px;
-        height: 500px;
-        background: url("../img/card-bg.png");
-        background-size: cover;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .lock-img {
-        width: 400px;
-        height: auto;
-    }
-
-    .unlock-section {
-        text-align: center;
-        margin-top: -20px;
-    }
-
-    .deal-itme-sec {
-        width: 500px;
-        height: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: white;
-        border-radius: 50px;
-        margin: auto;
-        margin-top: -20px;
-    }
-
-    .inner-section-deal {
-        margin-top: -35px;
-    }
-
-    .back-sec {
-        display: inline-block;
-        margin-top: 22px;
-    }
-
-    .deal-qr-dwn {
-        width: 70%;
-        height: auto;
-    }
-
-    .deal-qr-dwn {
-        width: 70%;
-        height: auto;
-    }
-
-    .bottom-map-div.email-end-sec {
-        height: 297px;
-        display: flex;
-        align-items: end;
-    }
+.bottom-txt-div {
+    padding: 0 20px;
+    position: absolute;
+    bottom: 30px;
 }
+
+.txt-botm {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'JumboMindset-Slim';
+    letter-spacing: 2px;
+}
+
+.spin-head-section {
+    width: 100%;
+    padding: 7em 0 25px 0;
+}
+
+.margin-top {
+    margin-top: 7em;
+}
+
+.btn-div {
+    background: url(../img/card-backgound.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sml-size {
+    font-size: 35px;
+    text-align: center;
+    width: 80%;
+    line-height: 1;
+}
+
+.welcom-head-sec {
+    padding-top: 4em;
+}
+
+.food-mrkt-img {
+    width: 100px;
+    height: auto;
+}
+
+.btn-div.active {
+    filter: brightness(0.5);
+}
+
+.backg-black {
+    background: url("../img/Rectangle\ 700@2x.png");
+    background-position: center;
+    padding: 0px 15px;
+    border-radius: 15px;
+    transform: rotate(-12deg);
+    margin-top: 3em;
+
+}
+
+.sipn-before {
+    position: relative;
+    z-index: 9;
+}
+
+.sipn-before::before {
+    content: "";
+    background-image: url(../img/spinner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    z-index: -1;
+
+}
+
+.txt-red {
+    color: #ff1112;
+}
+
+.sml-size {
+    font-family: 'JumboMindset-Slim';
+    margin-top: 40px;
+    font-size: 40px;
+    width: 100%;
+}
+
+.location-img {
+    width: 80%;
+}
+
+.detl-head {
+    font-size: 50px;
+    font-family: 'JumboMindset-Slim';
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5em;
+    letter-spacing: 1px;
+}
+
+.location-rout-div {
+    margin-bottom: 3em;
+}
+
+.img-div {
+    box-shadow: 0 0 10px 5px #0000002b;
+}
+
+.head2 {
+    font-size: 42px;
+    font-family: JumboIntroHead-Bold;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1.5em;
+
+}
+
+.route-nm {
+    font-size: 20px;
+    background-color: var(--primary-color);
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-family: 'JumboIntroHead-Bold';
+}
+
+.clock {
+    width: 55px;
+    height: auto;
+}
+
+.open-time-title {
+    font-size: 35px;
+    color: white;
+    font-family: 'JumboMindset-Slim';
+    letter-spacing: 1px;
+}
+
+.deatil-heading-sec {
+    width: 65%;
+    margin: auto;
+}
+
+.back-btn {
+    width: 115px;
+    position: absolute;
+    left: 20px;
+    top: 35px;
+}
+
+.opne-time-li p {
+    color: white;
+    font-size: 22px;
+    font-family: Jumbo-TheSans-Regular;
+}
+
+.opne-time-li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.timeing-div {
+    margin-bottom: 4em;
+}
+
+.open-date {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-family: 'JumboMindset-Slim';
+    letter-spacing: 1px;
+}
+
+.info-btn {
+    font-size: 38px;
+    font-family: 'JumboMindset-Slim';
+    letter-spacing: 1px;
+    transform: rotate(13deg);
+}
+
+.info-div {
+    background: url(../img/comment-bg.png);
+    background-position: 44% 100%;
+    background-size: cover;
+    width: 203px;
+    display: flex;
+    flex-direction: column;
+    height: 104px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.info-div::before {
+    content: '';
+    background-image: url(../img/hand.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 75px;
+    height: 80px;
+    top: 62px;
+    left: 25px;
+}
+
+.padd-top {
+    padding-top: 6em;
+}
+
+.top-sec-div {
+    background-color: #ECB719;
+    /* padding: 40px 20px 20px 20px; */
+    height: 10vh;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+
+.black-back-img {
+    width: 110px;
+}
+
+.inner-img-sec {
+    height: 90vh;
+    overflow: auto;
+}
+
+.title-div {
+    width: 50%;
+    margin: auto;
+}
+
+.title-zotte {
+    width: 270px;
+    height: auto;
+}
+
+.bg-none {
+    background-color: unset;
+}
+
+.in-height {
+    height: 90vh;
+    padding: 51px 30px 15px 30px;
+}
+
+.product-img-grid-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.pro-img.img-fluid {
+    background: white;
+    height: 365px;
+    width: 365px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.qr-title {
+    font-size: 60px;
+    font-family: JumboMindset-Regular;
+}
+
+.qr-sc-tile {
+    font-size: 45px;
+    font-family: Jumbo-TheSans-Black;
+}
+
+.qr-img {
+    width: 350px;
+    height: auto;
+}
+
+.li-fd-mr {
+    font-size: 30px;
+    font-family: 'Jumbo-TheSans-Black';
+}
+
+.verder-btn {
+    font-size: 35px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+}
+
+.inner-width {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.qr-download-div {
+    height: 38px;
+    background: url(../img/download-img.png);
+    background-position: center;
+    background-size: cover;
+    width: 210px;
+    margin: auto;
+    margin-top: -15px;
+    position: relative;
+}
+
+.verder-btn-div {
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+}
+
+.deal-card-img {
+    width: 500px;
+    height: 500px;
+    background: url("../img/card-bg.png");
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lock-img {
+    width: 400px;
+    height: auto;
+}
+
+.unlock-section {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.deal-itme-sec {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.inner-section-deal {
+    margin-top: -35px;
+}
+
+.back-sec {
+    display: inline-block;
+    margin-top: 22px;
+}
+
+.deal-qr-dwn {
+    width: 70%;
+    height: auto;
+}
+
+.deal-qr-dwn {
+    width: 70%;
+    height: auto;
+}
+
+.bottom-map-div.email-end-sec {
+    height: 295px;
+    display: flex;
+    align-items: end;
+}
+
+.spin-win::after {
+    content: "";
+    background: url("../img/hand.png");
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 38px;
+    height: 45px;
+    transform: rotate(100deg);
+    top: -26px;
+    left: 45%;
+}
+
+.open-time-div {
+    margin-bottom: 1.5rem;
+}
+
+.qr-title-div {
+    margin-bottom: 3rem;
+}
+
+.qr-second-tile-div {
+    margin-bottom: 3rem;
+}
+
+.list-foodmarkt {
+    margin-bottom: 3rem;
+}
+
+.deal-inner-sec {
+    padding-top: 3em;
+}
+
+.deal-inner-sec {
+    padding: 0em;
+}
+
+.back-sec {
+    margin-top: 0;
+}
+
+.content-welcm-content {
+    display: none;
+}
+
+/* } */

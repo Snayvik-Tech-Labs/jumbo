@@ -1,0 +1,389 @@
+@media only screen and (max-width: 768px) {
+
+    .head-img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .video-tag {
+        height: 250px;
+    }
+
+
+    .bottom-map-div::before {
+        height: 145px;
+        left: 0px !important;
+    }
+
+    .jumbo-btn {
+        font-size: 23px;
+        width: 220px;
+        height: 35px;
+    }
+
+    .txt-small {
+        font-size: 20px;
+    }
+
+    .btn-txt {
+        font-size: 20px;
+        width: 60%;
+    }
+
+    .btn-section {
+        margin-top: 0px;
+    }
+
+    .email-section {
+        padding: 3em 15px;
+        width: 100%;
+    }
+
+    .comment-txt.eml-txt {
+        top: -42px;
+    }
+
+    .comment-txt {
+        font-size: 25px;
+        right: 22%;
+    }
+
+    .eml-txt::after {
+        width: 15px;
+        top: 30px;
+        height: 15px;
+        right: 15px;
+    }
+
+    .input-field {
+        padding: 5px 5px;
+        width: 100%;
+    }
+
+    .email-input-btn-div {
+        width: 90%;
+        margin: auto;
+    }
+
+    .start-btn {
+        padding: 5px 35px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .email-btn-div {
+        text-align: center;
+    }
+
+    .txt-botm {
+        font-size: 15px;
+    }
+
+    .bottom-txt-div {
+        padding: 0 5px;
+    }
+
+    .email-section {
+        padding: 3em 15px;
+        width: 100%;
+    }
+
+    .email-title {
+        margin-bottom: 1rem;
+    }
+
+    .cl-lb {
+        font-size: 18px;
+    }
+
+    .check-txt {
+        font-size: 12px;
+    }
+
+    .email-div {
+        margin-bottom: 2em;
+    }
+
+    .email-title {
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+        font-family: 'JumboMindset-Regular';
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+    }
+
+    .email-section.spin-head-section {
+        padding: 3em 0 0px 0;
+    }
+
+    .margin-top {
+        margin-top: 2em;
+    }
+
+    .spin-win {
+        font-size: 45px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: black;
+    }
+
+    .butm-jumb-img {
+        width: 150px;
+    }
+
+    .food-markt-img {
+        width: 60px;
+    }
+
+    .welcom-head-sec {
+        padding-top: 1em;
+    }
+
+    .middle-btn-sec {
+        display: flex;
+        gap: 30px;
+        margin-top: 4vh;
+        flex-direction: column;
+    }
+
+
+    .btn-div {
+        width: 100%;
+        height: 90px;
+        background-size: auto;
+    }
+
+    .card-img {
+        display: none;
+    }
+
+    .sipn-before::before {
+        content: "";
+        background-image: url(../img/spinner.png);
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        top: -10px;
+        left: -14px;
+        z-index: -1;
+    }
+
+    .backg-black {
+        background: none;
+        padding: 0px;
+        border-radius: unset;
+        transform: unset;
+        margin-top: 0;
+    }
+
+    .sml-size {
+        font-size: 30px;
+        margin-top: 0;
+        color: black;
+    }
+
+    .text-size {
+        font-size: 35px;
+    }
+
+    .sipn-before .sipn-active-content {
+        margin-left: 45px;
+    }
+
+    .food-mrkt-img {
+        width: 65px;
+    }
+
+    /* ==========================detail=page======================== */
+    .padd-top {
+        padding-top: 3.5em;
+    }
+
+    .back-btn {
+        width: 70px;
+        position: absolute;
+        left: 15px;
+        top: 20px;
+    }
+
+    .detl-head {
+        font-size: 25px;
+        margin-bottom: 1em;
+        font-family: 'JumboMindset-Regular';
+    }
+
+    .head2 {
+        font-size: 22px;
+    }
+
+    .deatil-heading-sec {
+        width: 95%;
+    }
+
+    .location-img {
+        width: 77%;
+    }
+
+    .route-nm {
+        font-size: 15px;
+        padding: 2px 8px;
+    }
+
+    .location-rout-div {
+        margin-bottom: 1em;
+    }
+
+    .open-time-title {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    .clock {
+        width: 45px;
+        height: auto;
+    }
+
+    .opne-time-li p {
+        color: white;
+        font-size: 14px;
+    }
+
+    .open-time-div {
+        margin-bottom: 0.5rem;
+    }
+
+    .open-date {
+        font-size: 20px;
+    }
+
+    .timeing-div {
+        margin-bottom: 2em;
+    }
+
+    .info-div {
+        width: 140px;
+        height: 72px;
+    }
+
+    .info-btn {
+        font-size: 28px;
+        transform: rotate(16deg);
+    }
+
+    .info-div::before {
+
+        width: 45px;
+        height: 55px;
+        top: 35px;
+        left: 0px;
+    }
+
+    .black-back-img {
+        width: 65px;
+    }
+
+    .title-div {
+        width: 60%;
+        margin: auto;
+    }
+
+    .title-zotte {
+        width: 145px;
+        margin-top: -15px;
+    }
+
+    .product-img-grid-sec {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .in-height {
+        padding: 51px 24px 15px 24px;
+    }
+
+    .pro-img.img-fluid {
+        height: auto;
+    }
+
+    .inner-width {
+        width: 90%;
+    }
+
+    .qr-title {
+        font-size: 38px;
+    }
+
+    .qr-title-div {
+        margin-bottom: 1rem;
+    }
+
+    .qr-sc-tile {
+        font-size: 30px;
+    }
+
+    .qr-second-tile-div {
+        margin-bottom: 1.5rem;
+    }
+
+    .qr-img {
+        width: 210px;
+        height: auto;
+    }
+
+    .li-fd-mr {
+        font-size: 18px;
+    }
+
+    .verder-btn-div {
+        margin-top: 0em;
+    }
+
+    .verder-btn {
+        font-size: 25px;
+        width: 200px;
+
+        height: 35px;
+    }
+
+    .list-foodmarkt {
+        margin-bottom: 1rem;
+    }
+
+    .deal-card-img {
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .lock-img {
+        width: 75%;
+    }
+
+    .deal-itme-sec {
+        width: 270px;
+        height: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        border-radius: 50px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .deal-back-img {
+        margin-bottom: -12px;
+        margin-left: 12px;
+    }
+
+    .deal-qr-dwn {
+        width: 65%;
+    }
+
+    .content-welcm-content {
+        display: block;
+    }
+
+}
