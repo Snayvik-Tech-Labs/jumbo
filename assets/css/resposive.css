@@ -31,7 +31,7 @@
     }
 
     .btn-section {
-        margin-top: 0px;
+        margin-top: -20px;
     }
 
     .email-section {
@@ -370,7 +370,6 @@
         background: white;
         border-radius: 50px;
         margin: auto;
-        margin-top: 10px;
     }
 
     .deal-back-img {
@@ -386,4 +385,33 @@
         display: block;
     }
 
+    .ls-deal-card-sec {
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .deal-inner-sec {
+        padding: 0;
+    }
+
+    .map-image {
+        width: 100%;
+        height: 146px;
+        object-fit: cover;
+        margin-bottom: -40px;
+    }
+
+    .bottom-map-div.email-end-sec {
+        height: 47%;
+    }
+
+    .bottom-map-div.form-map-div {
+        margin-top: 26vh;
+    }
+
+    .bottom-map-div.main-bg {
+        margin-top: 9vh;
+    }
 }
